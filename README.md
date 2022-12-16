@@ -9,6 +9,8 @@ A basic HTML & CSS web application to showcase all future development projects c
 
 N/A
 
+View site at: https://zwirled.github.io/week-02-challenge-02/
+
 ## Usage
 
 ![screenshot of Amelia Bramwell's portfolio site](assets/images/screenshot.png)

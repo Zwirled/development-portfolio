@@ -81,7 +81,9 @@ header .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 header .wrapper .logo {
@@ -208,4 +210,77 @@ footer .wrapper {
 
 footer span {
     color: var(--white);
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapper {
+        padding: 0px 16px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 32px 0px;
+    }
+
+    main {
+        padding-top: 125px;
+    }
+
+    header .wrapper .logo {
+        width: 40px;
+        height: auto;
+    }
+
+    #about h1 {
+        max-width: 100%;
+    }
+
+    #work .title {
+        text-align: left;
+    }
+
+    #work .project-grid .project {
+        width: 100%;
+    }
+
+    #work .project-grid .project:first-child {
+        height: 350px;
+    }
+
+    #contact .contact-info {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #contact .contact-info .socials {
+        margin-bottom: 15px;
+    }
+
+    #contact .title {
+        text-align: left;
+    }
+
+    footer .wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 32px 16px;
+    }
+
+    footer .wrapper span:first-child {
+        margin-bottom: 15px;
+    }
 }

@@ -55,7 +55,6 @@ h3 {
 
 span {
     font-size: 16px;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
@@ -193,4 +192,20 @@ main {
 
 #contact .contact-info .socials a {
     margin: 0 5px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--black);
+}
+
+footer .wrapper {
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer span {
+    color: var(--white);
 }

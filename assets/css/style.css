@@ -154,6 +154,18 @@ main {
     height: 700px;
 }
 
+#project-1 {
+    background-image: url('../images/cheat-sheet.webp');
+}
+
+#project-2 {
+    background-image: url('../images/study-guide.webp');
+}
+
+#project-3 {
+    background-image: url('../images/code-refractor.webp');
+}
+
 #work .project-grid .project .project-info {
     background-color: var(--black);
     position: absolute;

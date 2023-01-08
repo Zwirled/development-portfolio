@@ -121,8 +121,24 @@ main {
 }
 
 /*ABOUT*/
-#about h1 {
-    max-width: 80%;
+
+#about .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#about .image {
+    width: 25%;
+}
+
+#about .about-info {
+    width: 75%;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
 }
 
 /*WORK*/
@@ -257,12 +273,24 @@ footer span {
         height: auto;
     }
 
-    #about h1 {
-        max-width: 100%;
+    #about .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    #about .image {
+        width: 100%;
+    }
+
+    #about .about-info {
+        width: 100%;
     }
 
     #work .title {
         text-align: left;
+    }
+
+    #work .project-grid {
+        flex-direction: column;
     }
 
     #work .project-grid .project {
